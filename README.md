@@ -11,7 +11,7 @@ Benchmarked 4 forecasting models on seasonal stocks sourced from Yahoo Finance t
 - Apple (AAPL)
 - Microsoft (MSFT)
 - Disney (DIS)
-- Norwegian Air (NAS.OL)
+- Norwegian Air (NWARF)
 
 ## Models Compared
 
@@ -42,7 +42,6 @@ Benchmarked 4 forecasting models on seasonal stocks sourced from Yahoo Finance t
 ## How to Run
 
 ```bash
-pip install pandas numpy scikit-learn statsmodels tensorflow yfinance matplotlib seaborn jupyter
-
+pip install -r requirements.txt
 jupyter notebook "G02 Stock Market Analysis.ipynb"
 ```
